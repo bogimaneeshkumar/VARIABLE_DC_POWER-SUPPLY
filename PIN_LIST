@@ -1,0 +1,331 @@
+Pinlist
+
+Exported from VARIABLE_DC_SUPPLY_.sch at 07-07-2023 17:49
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Part     Pad      Pin        Dir      Net
+
+C1       1        1          pas      N$4
+         2        2          pas      GND
+
+C2       1        1          pas      V1
+         2        2          pas      GND
+
+C3       1        1          pas      N$4
+         2        2          pas      GND
+
+C4       1        1          pas      V2
+         2        2          pas      GND
+
+D1       A        A          pas      N$1
+         C        C          pas      N$4
+
+D2       A        A          pas      N$2
+         C        C          pas      N$4
+
+D3       A        A          pas      GND
+         C        C          pas      N$1
+
+D4       A        A          pas      GND
+         C        C          pas      N$2
+
+D5       1        K          io       N$3
+         2        A          io       GND
+
+DIS1     1        A          pas      N$34
+         2        F          pas      N$38
+         3        CA         pas      5V
+         7        E          pas      N$37
+         8        D          pas      N$36
+         9        DP         pas               *** unconnected ***
+         10       C          pas      N$33
+         11       G          pas      N$39
+         13       B          pas      N$35
+         14       CA         pas      5V
+
+DIS2     1        A          pas      N$21
+         2        F          pas      N$30
+         3        CA         pas      5V
+         7        E          pas      N$31
+         8        D          pas      N$29
+         9        DP         pas               *** unconnected ***
+         10       C          pas      N$28
+         11       G          pas      N$32
+         13       B          pas      N$27
+         14       CA         pas      5V
+
+IC1      1        VIN        io       N$4
+         2        OUTPUT     io       N$3
+         3        GND_1      io       GND
+         4        FEED_BACK  io       N$6
+         5        !ON!/OFF   io       GND
+         T1       GND_2      io       GND
+         T2       GND_3      io       GND
+
+IC2      1        INPUT      io       N$4
+         2        GND        io       GND
+         3        OUTPUT     io       V2
+
+IC3      1        OUT        out      VR
+         2        -IN        in       N$7
+         3        +IN        in       N$5
+         4        V-         pwr      V-
+         5        +IN        in                ***   unused    ***
+         6        -IN        in                ***   unused    ***
+         7        OUT        out               ***   unused    ***
+         8        V+         pwr      V+
+
+IC4      1        1OUT       io       N$11
+         2        2OUT       io       N$12
+         3        VCC        io       V2
+         4        2IN-       io       5V
+         5        2IN+       io       VR
+         6        1IN-       io       6V
+         7        1IN+       io       VR
+         8        3IN-       io       4V
+         9        3IN+       io       VR
+         10       4IN-       io       3V
+         11       4IN+       io       VR
+         12       GND        io       GND
+         13       OUT4       io       N$14
+         14       OUT3       io       N$13
+
+IC5      1        1OUT       io       N$15
+         2        2OUT       io       N$16
+         3        VCC        io       V2
+         4        2IN-       io       1V
+         5        2IN+       io       VR
+         6        1IN-       io       2V
+         7        1IN+       io       VR
+         8        3IN-       io                *** unconnected ***
+         9        3IN+       io                *** unconnected ***
+         10       4IN-       io                *** unconnected ***
+         11       4IN+       io                *** unconnected ***
+         12       GND        io       GND
+         13       OUT4       io                *** unconnected ***
+         14       OUT3       io                *** unconnected ***
+
+IC6      1        1OUT       io       N$22
+         2        2OUT       io       N$8
+         3        VCC        io       V2
+         4        2IN-       io       9V
+         5        2IN+       io       VR
+         6        1IN-       io       V2
+         7        1IN+       io       V1
+         8        3IN-       io       8V
+         9        3IN+       io       VR
+         10       4IN-       io       7V
+         11       4IN+       io       VR
+         12       GND        io       GND
+         13       OUT4       io       N$10
+         14       OUT3       io       N$9
+
+IC7      1        1A         io       N$13
+         2        1Y         io       06
+         3        2A         io       N$14
+         4        2Y         io       07
+         5        3A         io       N$15
+         6        3Y         io       08
+         7        GND        io       GND
+         8        4Y         io       09
+         9        4A         io       N$16
+         10       5Y         io                *** unconnected ***
+         11       5A         io                *** unconnected ***
+         12       6Y         io                *** unconnected ***
+         13       6A         io                *** unconnected ***
+         14       VCC        io       5V
+
+IC8      1        1A         io                *** unconnected ***
+         2        1Y         io                *** unconnected ***
+         3        2A         io       N$8
+         4        2Y         io       01
+         5        3A         io       N$9
+         6        3Y         io       02
+         7        GND        io       GND
+         8        4Y         io       03
+         9        4A         io       N$10
+         10       5Y         io       04
+         11       5A         io       N$11
+         12       6Y         io       05
+         13       6A         io       N$12
+         14       VCC        io       5V
+
+IC9      1        1A         io       N$17
+         2        1Y         io       N$23
+         3        2A         io       N$18
+         4        2Y         io       N$24
+         5        3A         io       N$19
+         6        3Y         io       N$25
+         7        GND        io       GND
+         8        4Y         io       N$26
+         9        4A         io       N$20
+         10       5Y         io                *** unconnected ***
+         11       5A         io                *** unconnected ***
+         12       6Y         io                *** unconnected ***
+         13       6A         io                *** unconnected ***
+         14       VCC        io       5V
+
+IC10     1        4          io       04
+         2        5          io       05
+         3        6          io       06
+         4        7          io       07
+         5        8          io       08
+         6        C          io       N$19
+         7        B          io       N$18
+         8        GND        io       GND
+         9        A          io       N$17
+         10       9          io       09
+         11       1          io       01
+         12       2          io       02
+         13       3          io       03
+         14       D          io       N$20
+         15       NC         nc                *** unconnected ***
+         16       VCC        io       5V
+
+IC11     1        B_1        io       N$24
+         2        C_1        io       N$25
+         3        !LT        io       5V
+         4        !BI!/!RBO  io       5V
+         5        !RBI       io       5V
+         6        D_1        io       N$26
+         7        A_1        io       N$23
+         8        GND        io       GND
+         9        E          io       N$51
+         10       D_2        io       N$50
+         11       C_2        io       N$49
+         12       B_2        io       N$48
+         13       A_2        io       N$47
+         14       G          io       N$53
+         15       F          io       N$52
+         16       VCC        io       5V
+
+IC12     1        B_1        io       GND
+         2        C_1        io       GND
+         3        !LT        io       5V
+         4        !BI!/!RBO  io       5V
+         5        !RBI       io       5V
+         6        D_1        io       GND
+         7        A_1        io       N$22
+         8        GND        io       GND
+         9        E          io       N$44
+         10       D_2        io       N$43
+         11       C_2        io       N$42
+         12       B_2        io       N$41
+         13       A_2        io       N$40
+         14       G          io       N$46
+         15       F          io       N$45
+         16       VCC        io       5V
+
+J1       A5       CC1        io                *** unconnected ***
+         A9       VBUS_1     io       V1
+         B5       CC2        io                *** unconnected ***
+         B9       VBUS_2     io                *** unconnected ***
+         A12      GND_1      io       GND
+         B12      GND_2      io                *** unconnected ***
+         MH1      MH1        io                *** unconnected ***
+         MH2      MH2        io                *** unconnected ***
+         MH3      MH3        io                *** unconnected ***
+         MH4      MH4        io                *** unconnected ***
+
+L1       1        1          pas      N$3
+         2        2          pas      V1
+
+R1       1        A          pas      N$6
+         2        S          pas      N$6
+         3        E          pas      V1
+
+R2       1        1          pas      N$5
+         2        2          pas      V2
+
+R3       1        1          pas      N$6
+         2        2          pas      GND
+
+R4       1        1          pas      N$7
+         2        2          pas      V1
+
+R5       1        1          pas      VR
+         2        2          pas      N$5
+
+R6       1        1          pas      N$7
+         2        2          pas               *** unconnected ***
+
+R7       1        1          pas      6V
+         2        2          pas      7V
+
+R8       1        1          pas      5V
+         2        2          pas      6V
+
+R9       1        1          pas      4V
+         2        2          pas      5V
+
+R10      1        1          pas      7V
+         2        2          pas      8V
+
+R11      1        1          pas      8V
+         2        2          pas      9V
+
+R12      1        1          pas      3V
+         2        2          pas      4V
+
+R13      1        1          pas      2V
+         2        2          pas      3V
+
+R14      1        1          pas      1V
+         2        2          pas      2V
+
+R15      1        1          pas      GND
+         2        2          pas      1V
+
+R16      1        1          pas      9V
+         2        2          pas      V2
+
+R17      1        1          pas      N$40
+         2        2          pas      N$21
+
+R18      1        1          pas      N$41
+         2        2          pas      N$27
+
+R19      1        1          pas      N$42
+         2        2          pas      N$28
+
+R20      1        1          pas      N$43
+         2        2          pas      N$29
+
+R21      1        1          pas      N$44
+         2        2          pas      N$31
+
+R22      1        1          pas      N$45
+         2        2          pas      N$30
+
+R23      1        1          pas      N$46
+         2        2          pas      N$32
+
+R24      1        1          pas      N$47
+         2        2          pas      N$34
+
+R25      1        1          pas      N$48
+         2        2          pas      N$35
+
+R26      1        1          pas      N$49
+         2        2          pas      N$33
+
+R27      1        1          pas      N$50
+         2        2          pas      N$36
+
+R28      1        1          pas      N$51
+         2        2          pas      N$37
+
+R29      1        1          pas      N$52
+         2        2          pas      N$38
+
+R30      1        1          pas      N$53
+         2        2          pas      N$39
+
+TR1      1        A1         pas               *** unconnected ***
+         2        E2         pas      N$2
+         3        A2         pas      N$1
+         5        E1         pas               *** unconnected ***
+         S1       S1         pas               ***   unused    ***
+         S2       S2         pas               ***   unused    ***
+

@@ -1,0 +1,66 @@
+Partlist
+
+Exported from VARIABLE_DC_SUPPLY_.sch at 07-07-2023 17:49
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device         Package                    Library         Sheet
+
+C1       4700 uF        C2.5/2         C2.5-2                     capacitor-wima  1
+C2       220 uF         C2.5/2         C2.5-2                     capacitor-wima  1
+C3       330 nF         C2.5/2         C2.5-2                     capacitor-wima  1
+C4       100 nF         C2.5/2         C2.5-2                     capacitor-wima  1
+D1       1N4004         1N4004         DO41-10                    diode           1
+D2       1N4004         1N4004         DO41-10                    diode           1
+D3       1N4004         1N4004         DO41-10                    diode           1
+D4       1N4004         1N4004         DO41-10                    diode           1
+D5       IN5822         IN5822         DIOAD3020W130L900D530      IN5822          1
+DIS1     HD-E101        HD-E101        HDSP-I                     display-hp      1
+DIS2     HD-E101        HD-E101        HDSP-I                     display-hp      1
+IC1      LM2596SX-ADJ   LM2596SX-ADJ   LM2596SXADJ                LM2596SX-ADJ    1
+IC2      LM7810ACT      LM7810ACT      TO254P470X1016X2019-3P     LM7810ACT       1
+IC3      LM4558D        LM4558D        SO08                       linear          1
+IC4      LM339D         LM339D         SOIC127P600X175-14N        LM339D          1
+IC5      LM339D         LM339D         SOIC127P600X175-14N        LM339D          1
+IC6      LM339D         LM339D         SOIC127P600X175-14N        LM339D          1
+IC7      SN74HC04NSR    SN74HC04NSR    SOIC127P780X200-14N        SN74HC04NSR     1
+IC8      SN74HC04NSR    SN74HC04NSR    SOIC127P780X200-14N        SN74HC04NSR     1
+IC9      SN74HC04NSR    SN74HC04NSR    SOIC127P780X200-14N        SN74HC04NSR     1
+IC10     SN74HC147N     SN74HC147N     DIP794W53P254L1930H508Q16N SN74HC147N      1
+IC11     SN74LS47NSRE4  SN74LS47NSRE4  SOIC127P780X200-16N        SN74LS47NSRE4   1
+IC12     SN74LS47NSRE4  SN74LS47NSRE4  SOIC127P780X200-16N        SN74LS47NSRE4   1
+J1       TYPE-C-31-M-17 TYPE-C-31-M-17 TYPEC31M17                 TYPE-C-31-M-17  1
+L1       33 uH          SM-B5          SM-B5                      inductor-neosid 1
+R1                      3RP/1610N      3RP/1610N                  pot             1
+R2       47K?           RMG100-V       TO-247-2V                  resistor-power  1
+R3       1.5K?          RMG100-V       TO-247-2V                  resistor-power  1
+R4       47K?           RMG100-V       TO-247-2V                  resistor-power  1
+R5       47K?           RMG100-V       TO-247-2V                  resistor-power  1
+R6       47K?           RMG100-V       TO-247-2V                  resistor-power  1
+R7       10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R8       10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R9       10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R10      10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R11      10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R12      10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R13      10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R14      10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R15      10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R16      10K?           RMG100-V       TO-247-2V                  resistor-power  1
+R17      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R18      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R19      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R20      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R21      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R22      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R23      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R24      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R25      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R26      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R27      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R28      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R29      220?           RMG100-V       TO-247-2V                  resistor-power  1
+R30      220?           RMG100-V       TO-247-2V                  resistor-power  1
+TR1                     71-4-1532      71-5                       inductor-neosid 1
