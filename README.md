@@ -1,6 +1,6 @@
 # AC to DC Variable Power Supply
 
-This project is a variable power supply that converts alternating current (AC) from a household power source into direct current (DC). The user can adjust the output voltage, which allows for the adjustment of the power drawn based on their specific requirements. The power supply is equipped with a built-in voltage sensing mechanism that displays the real-time voltage on an LED screen.
+This project is a variable power supply that converts alternating current (AC) from a household power source into direct current (DC). The user can adjust the output voltage, which allows for the adjustment of the power drawn based on their specific requirements. The power supply is equipped with a built-in voltage sensing mechanism that displays the real-time voltage on an LED screen flash kind of ADC method and the BCD to 7segment decoder and the 7 segment LED.
 
 ## Features
 
